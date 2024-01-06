@@ -29,7 +29,7 @@ playButton.addEventListener("click",(e)=>{
 vsComputerButton.addEventListener("click",(e)=>{
     vsComputer=true;
     setTimeout(par1.style.display="none",5000);
-    setTimeout(par2.style.display="unset",5000);
+    par2.style.display="unset",5000;
     // location.assign("index1.html");
 
 
@@ -40,7 +40,7 @@ vsotherPlayerButton.addEventListener("click",(e)=>{
     
     // location.assign("index1.html");
     setTimeout(par1.style.display="none",5000);
-    setTimeout(par2.style.display="unset",5000);
+    par2.style.display="unset",5000;
 
 });
 
