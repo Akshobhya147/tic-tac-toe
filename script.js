@@ -90,7 +90,7 @@ resetbutton.addEventListener("click",(e)=>{
     tossbutton.disabled=false;
     result.innerText="";
     gameOver=false;
-    instruction.innerText="";
+    instruction.innerText="Toss";
     symbolheading.innerText="";
 });
  
